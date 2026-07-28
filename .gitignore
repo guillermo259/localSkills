@@ -1,0 +1,49 @@
+# Sistema operativo
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Editores e IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Variables de entorno y secretos
+.env
+.env.local
+.env.production
+.env.staging
+.env.*
+
+# Claves y certificados
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+id_rsa
+id_ecdsa
+id_ed25519
+id_dsa
+
+# Archivos temporales y de log
+*.log
+*.tmp
+*.temp
+
+# Dependencias (por si se agrega código en el futuro)
+node_modules/
+.venv/
+__pycache__/
+vendor/
+
+# Build outputs
+dist/
+build/
