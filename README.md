@@ -107,6 +107,11 @@ El agente leerá las instrucciones de la skill y las aplicará sobre tu proyecto
 |-------|-------------|
 | `seo-auditor.md` | Audita una página o landing para identificar errores y oportunidades de SEO |
 
+### 🛠️ Skill Generator
+| Skill | Descripción |
+|-------|-------------|
+| `skill-generator/SKILL.md` | Genera nuevas skills reutilizables sintetizando el conocimiento de la conversación activa |
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Roadmap
@@ -121,6 +126,8 @@ El agente leerá las instrucciones de la skill y las aplicará sobre tu proyecto
 - [ ] Skills de Documentación
   - [ ] Generador de documentación técnica
   - [ ] Generador de changelogs
+- [x] Skill Generator
+  - [x] Generador de skills desde conversaciones
 - [ ] Otras skills planeadas
   - [ ] Skills adicionales en desarrollo
 
@@ -181,6 +188,12 @@ Project Link: [https://github.com/guillermo259/localSkills](https://github.com/g
 ---
 
 ## Changelog
+
+### [1.1.0] - 2026-07-28
+
+#### Agregado
+- Skill `skill-generator/SKILL.md` — genera nuevas skills reutilizables sintetizando la conversación activa con el agente
+- `skill-generator/documentation.md` — registro de decisiones de diseño del skill generator
 
 ### [1.0.0] - 2026-07-28
 
